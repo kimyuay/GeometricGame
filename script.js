@@ -220,14 +220,14 @@ var array_of_functions = [
     addShape6
 ]
 
-var COLOR = [0x0000ff, 0x800080, 0x008000, 0xffa500, 0x87ceeb, 0xfffff1]
+var COLOR = [0x0000ff, 0x9370DB, 0x008000, 0xffa500, 0x87ceeb, 0xfffff1]
 var POSITION_X = [-50, 0, 50]
 
 //Innitial
 
 
 addShape(new THREE.SphereGeometry(10, 32, 32), 0x0000ff, -50, 30, "sphere");
-addShape(new THREE.CylinderGeometry(10, 10, 30, 32), 0x800080, 0, 30, "cylinder");
+addShape(new THREE.CylinderGeometry(10, 10, 30, 32), 0x9370DB, 0, 30, "cylinder");
 addShape(new THREE.CylinderGeometry(0, 10, 30, 6), 0x008000, 50, 30);
 addShape(new THREE.BoxGeometry(30, 15, 10), 0xffa500, -50, -30);
 addShape(new THREE.CylinderGeometry(10, 0, 25, 4), 0x87ceeb, 0, -30);
