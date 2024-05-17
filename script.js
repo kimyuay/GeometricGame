@@ -259,7 +259,7 @@ document.getElementById('showRandomShapes').addEventListener('click', () => {
     const RandomColor = randomIDX.slice(2, 5);
 
     for (var i = 0; i < RandomShapes.length; i++) {
-        array_of_functions[RandomShapes[i]](COLOR[RandomColor[i]], POSITION_X[i], 0);
+        array_of_functions[RandomShapes[i]](COLOR[RandomColor[i]], POSITION_X[i], -25);
     }
     previous_answerIndex = answerIndex;
 });
@@ -268,7 +268,7 @@ document.getElementById('revealAnswer').addEventListener('click', () => {
     //console.log('The answer is: ', answerIndex);
 
 
-    array_of_functions[answerIndex](COLOR[answerIndex], 0, 50);
+    array_of_functions[answerIndex](COLOR[answerIndex], 0, 30);
 });
 
 function animate() {
